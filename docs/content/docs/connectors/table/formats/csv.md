@@ -142,6 +142,13 @@ Format Options
       <td>String</td>
       <td>Null literal string that is interpreted as a null value (disabled by default).</td>
     </tr>
+      <tr>
+      <td><h5>csv.ignore-first-line</h5></td>
+      <td>optional</td>
+      <td style="word-wrap: break-word;">(none)</td>
+      <td>String</td>
+      <td>默认false，指定首行是否为标题行如果为true则跳过读取第一行.</td>
+    </tr>
     </tbody>
 </table>
 
